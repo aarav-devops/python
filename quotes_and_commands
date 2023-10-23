@@ -1,0 +1,30 @@
+# This is a single line comment.
+
+
+"""
+This is a multiple line comment.
+It's a double quotes thrice.
+"""
+
+
+'''
+This is a multipline comment.
+It is a single quotes thrice.
+'''
+------------------------------------------------------------------------------------------------------
+
+Skill = "DevOps"
+print(Skill)    :    DevOps
+print('Skill')  :    Skill     
+print("Skill")  :    Skill
+
+
+print('''
+Python is a user-friendly Language.
+It is simple and easy to understand.
+It has too many libraries to support different functions''')
+
+print("""
+Python is a user-friendly Language.
+It is simple and easy to understand.
+It has too many libraries to support different functions""")
