@@ -1,0 +1,31 @@
+#   String's
+str1 = "Intelligence"
+str2 = "Confidence"
+str3 = "Discipline"
+
+#   Numbers and Float
+num1 = 15
+num2 = 10
+flo1 = 3.14
+
+#   List        : Collection of multiple datatypes, enclosed in a square bracket.
+
+first_list = [str1, num2, "Aarav", 3.14, num1]
+print(first_list)
+
+#   Tuple       : Collection of multiple datatypes, enclosed in a small bracket.
+#   Difference  : We change data in List datatype but unable to change data in tuple.
+
+first_tuple = (str2, "Aarav", str1, flo1)
+print(first_tuple)
+
+#   Dictionary  : The collection of element in key-value pair. We use curley braces for dictionary.
+
+first_dictionary = {"Name":"Aarav", "Weight":90, "Skills":["Jenkins", "AWS", "Terraform"]}
+print(first_dictionary)
+
+#   Verify Data Types
+print("The class of first_list is", type (first_list))
+print("The class of first_tuple is", type (first_tuple))
+print("The class of first_dictionary is", type (first_dictionary))
+
