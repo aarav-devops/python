@@ -1,0 +1,14 @@
+name = "Aarav"
+skill = "DevOps"
+
+# Different print formats:
+
+print("For organisation X, the DevOps engineer is", name)
+
+print("For organisation X, the DevOps engineer is {}".format(name))
+
+print("For organisation X, the {} engineer is {}".format(skill, name))
+
+print(f"For organisation X, the {skill} engineer is {name}")
+
+print("For organisation X, the DevOps engineer is" + " " + name)
