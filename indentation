@@ -1,0 +1,48 @@
+      ---------------  
+        BASH SCRIPT
+      ---------------
+
+C=3
+echo "Learning Indentation"
+echo ""
+
+if [ c -eq 0 ]
+  then
+    echo "We are in the if block."
+    echo "The value of C is 0."
+
+  else
+    echo "We are in the else block."
+    echo "The value of C is $C"
+fi
+
+  echo "This statement is out of if/else block."
+
+
+
+      ---------------
+          PYTHON
+      ---------------
+
+  a=1
+
+print("Learning Indentation")
+print()
+
+if a == 0:
+    print("You are in if block.")
+    print("The value of a is 0.")
+
+else:
+    print("You are in else block.")
+    print("The value of a is", a)
+
+print ()
+print ("This statement is out of if/else statement")
+
+
+
+
+
+
+
