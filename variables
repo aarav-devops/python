@@ -1,0 +1,30 @@
+#   Three Variables - String, Integer, and Float:
+var1 = "Aarav"
+var2 = 31
+var3 = 3.14
+
+#   Print all three variables:
+print(var1)
+print(var2)
+print(var3)
+
+
+#   Value of all three variables by using it together:
+a = b = c = 58
+
+#   Print all three variables with variable type:
+print("The value of a is", a)
+print("The value of b is", b)
+print("The value of c is", c)
+
+#   Value of variables x, y, and z
+x, y, z = "Aarav", 13, 3.14
+print("The value of X is", x)
+print("X is a", type(x))
+
+print("The value of y is", y)
+print("y is a", type(y))
+
+print("The value of z is", z)
+print("z is a", type(z))
+
