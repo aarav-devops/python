@@ -1,0 +1,41 @@
+#   Slicing Introduction
+mercury = "Closest to Sun"
+
+"""
+print(mercury)
+print(mercury [0])
+print(mercury [11:14])
+"""
+
+#   Slicing List
+"""
+DevOps = ["Linux", "Jenkins", "Ansible", "Kubernetes", "Terraform"]
+
+print(DevOps)
+print(DevOps [3])
+print(DevOps [1:4])
+print(DevOps [1:4][2][5:])
+
+"""
+#   Slicing a Tuple
+"""
+AWS = ("EC2", "VPC", "S3 Bucket", "Elastic Load Balancer", "IAM Role")
+
+print (AWS)
+print (AWS [2:5])
+print (AWS [2:5] [1])
+print (AWS [2:5] [1] [1:5])
+"""
+
+#   In dictionary, we have the key, we use slicing to find the value of the key.
+
+skills = {"DevOps" : ["Linux", "Jenkins", "Ansible", "Kubernetes", "Terraform"], "AWS" : ["EC2", "VPC", "S3 Bucket", "Elastic Load Balancer", "IAM Role"]}
+
+"""
+print(skills)
+print(skills ["DevOps"])
+print(skills ["AWS"])
+print(skills ["AWS"][2:5])
+print(skills ["AWS"][2:5] [2][6:])
+
+"""
