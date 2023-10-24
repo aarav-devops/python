@@ -1,0 +1,104 @@
+#   Arithmatic Operator
+"""
+a = 5
+b = 3
+
+c = a + b
+print(c)
+
+c = a - b
+print(c)
+
+c = a * b
+print(c)
+
+c = a / b
+print(c)
+
+c = a % b
+print(c)
+
+c = a ** b
+print(c)
+"""
+
+#   Comparison operators
+"""
+a = 2
+b = 7
+
+out = a < b
+print(out)
+
+out = a > b
+print(out)
+
+out = (a == b)
+print(out)
+
+out = (a != b)
+print(out)
+
+out = (a >= b)
+print(out)
+
+out = (a <= b)
+print(out)
+"""
+
+#   Assignment Operator
+"""
+c = 0
+d = 2
+
+c += d
+print(c)
+
+c -= d
+print(c)
+"""
+
+#   Logical Operator
+"""
+a = 21
+b = 9
+
+c = 3
+d = 4
+
+out = (a > b) or (c > d)        # Either of condition must be true! 
+print(out)
+
+out = (a > b) or (c < d)        # All the condition must be true!
+print(out)
+"""
+
+#   Membership Operator
+"""
+DevOps = ["Linux", "Jenkins", "Ansible", "Terraform", "Kubernetes", "Dockers"]
+
+out = "Jenkins" in DevOps
+print(out)
+
+out = "Jenkins" not in DevOps
+print(out)
+
+out = "AWS" in DevOps
+print(out)
+
+out = "AWS" not in DevOps
+print(out)
+"""
+
+# Identity Operator
+"""
+a = 12
+b = 10
+
+out = a is b
+print (out)
+
+out = a is not b
+print(out)
+"""
+
