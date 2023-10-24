@@ -1,0 +1,51 @@
+#   For Loop
+"""
+x = "HISTORY"
+for i in x:
+    print(i)
+"""
+
+***************************************************************************************************
+
+#  For Loop - Tuple
+"""
+Asia = ["India", "China", "Pakistan", "Singapore", "Malasiya", "Srilanka", "Japan", "Afganistan"]
+for country in Asia:
+    print(f"{country} lies in the Asia")
+"""
+
+***************************************************************************************************
+
+# While Loop
+"""
+x = 0
+
+while x <= 10:
+    print("The value of X is", x)
+    print("Looping")
+    x += 1
+print("Loop end")
+"""
+
+****************************************************************************************************
+
+# Nested For Loop
+"""
+Asia = ["India", "China", "Pakistan", "Singapore", "Malasiya", "Srilanka", "Japan", "Afganistan"]
+
+for i in Asia:
+    print(i)
+    for a in i:
+        print(a)
+
+****************************************************************************************************
+
+#   IMPORT TIME
+
+import time
+x = 1
+
+while True:
+    print(x)
+    x *= 2
+    time.sleep(1)
