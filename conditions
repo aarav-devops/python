@@ -1,0 +1,74 @@
+#   If else condition
+"""
+a = int(input("Write a number to check divisiblity with 9   :   "))
+b = a % 9
+
+if b == 0 and a != 0:
+    print ("HURREY! The number is divisible by 9")
+
+else:
+    print ("SORRY! The number is not divisible by 9")
+"""
+
+---------------------------------------------------------------------------------------------------------------------
+
+# If elif and else conditions
+"""
+a = int(input("Write a number to check if the number is divisible by 9 and 11  :   "))
+b = a % 9
+c = a % 11
+
+if a == 0:
+    print("Please enter a non-zero number.")
+elif b == 0 and c != 0:
+    print("The number is only divisible by 9.")
+
+elif b != 0 and c == 0:
+    print("The number is only divisible by 11.")
+
+elif b == 0 and c == 0:
+    print("The number is divisible by both 9 and 11.")
+
+else:
+    print("The number is not divisible by either 9 or 11.")
+"""
+----------------------------------------------------------------------------------------------------------------------
+
+
+"""
+This scripts wil implement our knowledge on conditions
+and different data tyes!
+"""
+
+"""
+print("OUR ORGANISATION HAS VARIOUS SKILLS SET")
+
+DevOps = ["Linux", "Jenkins", "Ansible", "Docker", "Kubernetes", "Terraform", "SonarQube", "Nexus"]
+Cloud = ("EC2","S3", "Load Blancer", "IAM Role", "EBS", "Security Groups", "NACL", "Cloud Front")
+cntr_emp1 = {"Name" : "Rocky", "Skill" : "Blockchain", "Code" : "1024"}
+cntr_emp2 = {"Name" : "Aarav", "Skill" : "AI", "Code" : "1098"}
+
+usr_skill = input("PLEASE ENTER YOUR SKILLS THE JOB SUITABLE FOR YOU    :   ")
+print(" ")
+print(" ")
+if usr_skill in DevOps:
+    print(f"GREAT! {usr_skill} IS A PART OF DevOps TEAM.")
+    print("DevOps VACANCY : 03 POSTS AVAILABLE")
+
+elif usr_skill in Cloud:
+    print(f"GREAT! {usr_skill} IS A PART OF CLOUD ENGINEER TEAM.")
+    print("CLOUD ENGINEER VACANCY : 01 POSTS AVAILABLE")
+
+elif (usr_skill in cntr_emp1.values()) or (usr_skill in cntr_emp2.values()):
+    print(f"GREAT! {usr_skill} JOBS ARE AVAILABLE ON CONTRACT BASIS.")
+    print("CONTRACT BASIS VACANCY : 05 POSTS AVAILABLE")
+
+else:
+    print("SORRY! SKILL NOT FOUND.")
+    print("PLEASE CHECK IF YOU HAVE ENTERED VALUE IN CAPITALIZE OR CHECK THE SPELLING.")
+    
+"""
+
+
+
+
